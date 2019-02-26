@@ -1,5 +1,5 @@
 import gym
-env = gym.make('Cart-Pole-v0')
+env = gym.make('CartPole-v0')
 
 for i_episode in range(20):
     observation = env.reset()
